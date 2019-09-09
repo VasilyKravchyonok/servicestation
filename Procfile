@@ -1,1 +1,1 @@
-web: java -jar $JAVA_OPTS -Dserver.port=$PORT target/servicestation-0.0.1.jar
+web: java -jar $JAVA_OPTS -Dserver.port=$PORT target/servicestationapp-0.0.1.jar
