@@ -1,1 +1,1 @@
-web: cd ./deploy/tomcat/bin && export 'JAVA_OPTS=-Dport.http=$PORT' && ./catalina.sh run
+web: java -jar $JAVA_OPTS -Dserver.port=$PORT target/servicestation-0.0.1.jar
