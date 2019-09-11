@@ -70,9 +70,10 @@
                 <artifactId>heroku-maven-plugin</artifactId>
                 <version>2.0.11</version>
                 <configuration>
-                    <processTypes>
-                        <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Application</web>
-                    </processTypes>
+                    <appName>servicestationapp</appName>
+<!--                    <processTypes>-->
+<!--                        <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Application</web>-->
+<!--                    </processTypes>-->
                 </configuration>
             </plugin>
         </plugins>
